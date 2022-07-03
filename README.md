@@ -22,7 +22,7 @@ Additionally, a report should summarize the analysis performed and help manageme
 
 ![Retiring_Titles](https://github.com/Connectime4ever/Pewlett-Hackard-Analysis/blob/main/Retiring%20Titles.png)
 
-    Employees Eligible for Mentorship Program
+**Employees Eligible for Mentorship Program**
     
 ![Mentorship_Eligibility_Table](https://github.com/Connectime4ever/Pewlett-Hackard-Analysis/blob/main/Mentorship%20Eligibility%20Table.png)
 
