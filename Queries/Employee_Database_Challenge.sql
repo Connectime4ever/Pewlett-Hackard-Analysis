@@ -57,3 +57,79 @@ FROM mentorship1
 WHERE (to_date = '9999-01-01')
 AND (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
+
+-- Summary questions
+-- Total roles to be replaced
+SELECT COUNT (emp_no)
+FROM unique_titles;
+
+-- Total employees eligible for Mentorship Program.
+SELECT COUNT (emp_no)
+FROM mentorship_eligibility;
+
+--High Qualified Retiring employees by Departments
+SELECT u.emp_no,
+	u.first_name,
+	u.last_name,
+	u.title,
+	de.dept_no
+INTO retirings_depts1
+FROM unique_titles as u
+LEFT JOIN dept_emp as de
+ON u.emp_no = de.emp_no;
+
+SELECT rd.emp_no,
+	rd.title,
+	d.dept_name
+INTO retirings_depts2
+FROM retirings_depts1 as rd
+LEFT JOIN departments as d
+ON rd.dept_no = d.dept_no; 
+
+SELECT DISTINCT ON (emp_no)emp_no,
+	dept_name,
+	title
+INTO retirings_depts3
+FROM retirings_depts2;
+
+SELECT dept_name, COUNT(title) as "Total Retiring-Ready Employees"
+FROM retirings_depts3
+GROUP BY dept_name
+ORDER BY "Total Retiring-Ready Employees" DESC;
+
+
+SELECT dept_name, COUNT(title) as "Total High Qualified Retiring-Ready Employees"
+INTO highTech_demand
+FROM retirings_depts3
+WHERE (title = 'Senior Engineer') OR  (title = 'Senior Staff') OR (title = 'Engineer') OR (title = 'Technique Leader')
+GROUP BY dept_name
+ORDER BY "Total High Qualified Retiring-Ready Employees" DESC;
+
+-- Eligible Employees for Mentorship Program by Department
+SELECT m.emp_no,
+	m.title,
+	de.dept_no
+INTO eligible1
+FROM mentorship_eligibility as m
+LEFT JOIN dept_emp as de
+ON m.emp_no = de.emp_no;
+
+SELECT e.emp_no,
+	e.title,
+	d.dept_name
+INTO eligible2
+FROM eligible1 as e
+LEFT JOIN departments as d
+ON e.dept_no = d.dept_no;
+
+SELECT DISTINCT ON (emp_no)emp_no,
+	dept_name,
+	title
+INTO eligible3
+FROM eligible2;
+
+SELECT dept_name, COUNT(title) as "Total Eligible Employees for Mentorship"
+INTO eligible_bydept
+FROM eligible3
+GROUP BY dept_name
+ORDER BY "Total Eligible Employees for Mentorship" DESC;

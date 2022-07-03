@@ -7,9 +7,7 @@ Additionally, a report should summarize the analysis performed and help manageme
 
 ## Results
 
-+ There are 7 titles the client needs to focus on for future replacements. 
-
-+ The human resources situation of the client requires inmediate attention as more than 70% of the retiring employees are those most skilled and high tech employees (25916 **Senior** Engineer and 24926 **Senior** staff )
++ More than 70% of the retiring employees are those most skilled and high tech employees (25916 **Senior** Engineer and 24926 **Senior** staff )
 
 + The Engineer title will be the most impacted position with the massive retirement (25916 Senior Engineers and 9285 Engineers). 
 
@@ -28,6 +26,22 @@ Additionally, a report should summarize the analysis performed and help manageme
 
 ---
 ## Summary:
- Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+
++ The human resources situation of the client requires inmediate attention as there will be 7 different titles impacted with the massive retirements which involve 72458 possible replacements.
+
++ The situation is higly sensitive as more than 70% of the retiting employees are those with the highest qualification, in the titles of Senior Engineer and Senior Staff, so more challenging to be replaced.
+
++ Besides, there are only 1549 eligible employees for the mentorship program which will not be enough to take over all the roles currencoveredtly  by the retiring employees. The ratio retiring employees/elegible employees for mentorship program is dramatically high (***approximatelly 46:1***).  
+
++ It seems there are plenty qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. Although it might look a good thing, it is just a small portion of the situation addressed.
+
++ The main challenge for the client is to find more mentorship-program-eligible candidates (inside or outside the organization) to replace all the roles that will be impacted by the massive retirement, and/or hire  role-ready employees.  
+
++ Development, Production and Sales Departments show the highest overall number of  retirement-ready employees.  They also show the highest number of **high qualified** retirement- ready employees.  
+
++ Similarly the number of eligible employees for mentorship are higher for those three departments. However, the gap between the number of high quatified retiring employees and that of the eligible employees for mentorship is extremely high.
+
++  All in all it is highly suggested that the client revisit all its contigent plans and strategies to face the upcoming event as in any escenario it will be a costly and time consuming process that could impact margins and incomes of the organization. 
+
+
+
