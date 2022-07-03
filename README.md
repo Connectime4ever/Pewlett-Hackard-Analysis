@@ -15,7 +15,7 @@ Additionally, a report should summarize the analysis performed and help manageme
 
 + Another highly demanded title to be filled is the Staff with 24926 Senior Staff and 7636 Staff, masively retiring.
 
-+ Apparently Manager titles should not not represent any challenge for the client as only 2 are retiring. It could be an opportuntiy to promote tallent inside the organization.
++ Apparently Manager titles should not  represent any challenge for the client as only 2 are retiring. It could be an opportuntiy to promote tallent inside the organization.
 
 
 ![Unique_Titles](https://github.com/Connectime4ever/Pewlett-Hackard-Analysis/blob/main/Unique%20Titles.png)
