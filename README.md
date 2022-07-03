@@ -7,7 +7,21 @@ Additionally, a report should summarize the analysis performed and help manageme
 
 ## Results
 
-Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
++ There are 7 titles the client needs to focus for future replacements. 
+
++ The human resources situation of the client requires inmediate attention as the more than 70% of the retiring employees are those most skilled and high tech employees (25916 **Senior** Engineer and 24926 **Senior** staff )
+
++ The Engineer position will be the most impacted position with the massive retirement with 25916 Senior Engineers and 9285 Engineers. 
+
++ Another highly demanded title to be filled is the Staff with 24926 Senior Staff and 7636 Staff masively retiring.
+
++ Apparently Manager titles should not not represent any challenge for the client as only 2 are retiring. It could be an opportuntiy to promote tallent inside the organization.
+
+
+![Unique_Titles](https://github.com/Connectime4ever/Pewlett-Hackard-Analysis/blob/main/Unique%20Titles.png)
+
+![Retiring_Titles](https://github.com/Connectime4ever/Pewlett-Hackard-Analysis/blob/main/Retiring%20Titles.png)
+
 
 ----
 
